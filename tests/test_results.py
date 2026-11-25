@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("pydantic")
 from src.models.result import RequestResult
 
 def test_request_result():
